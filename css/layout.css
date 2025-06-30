@@ -1,16 +1,19 @@
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
 .inner {
     max-width: 1410px;
     margin: 0 auto;
 }
 
-@media (max-width:768px) {
-    .inner {
-        margin: 0 16px;
-    }
-}
-
 .default {
-    padding: 80px 0;
+    padding: 120px 0;
 }
 
 .default .title {
@@ -20,38 +23,18 @@
 }
 
 .default .title h2 {
-    font-size: 40px;
-    font-weight: 600;
-    color: #52553d;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
 }
 
 .default .title p {
-    margin-top: 16px;
+    margin-top: 8px;
     font-size: 16px;
     font-weight: 400;
-    color: #484b32;
-
+    text-align: center;
 }
-
-
-@media (max-width:768px) {
-
-    .default {
-        padding: 80px 0;
-    }
-
-    .default .title {
-        max-width: 1410px;
-        margin: 0 auto;
-        margin-bottom: 40px;
-
-        /*  */
-        margin: 0 16px;
-        margin-bottom: 40px;
-    }
-
-}
-
 
 .scroll {
     font-size: 12px;

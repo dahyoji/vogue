@@ -4,411 +4,330 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>가네시</title>
+    <title>Vogue korea</title>
+
     <link rel="stylesheet" href="./lib/css/reset.css">
-    <link rel="stylesheet" href="./lib/css/common.css">
     <link rel="stylesheet" href="./lib/css/fonts.css">
-    <link rel="stylesheet" href="./lib/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./lib/css/slick.css">
     <link rel="stylesheet" href="./css/layout.css?ver=1.0">
     <link rel="stylesheet" href="./css/style.css?ver=1.0">
 
     <script src="./lib/js/jquery-1.12.4.min.js"></script>
-    <script src="./lib/js/swiper-bundle.min.js"></script>
+    <script src="./lib/js/slick.min.js"></script>
     <script src="./js/custom.js?ver=1.0"></script>
 </head>
 
 <body>
-    <header id="header">
-        <div class="inner hd_wrap">
+    <header class="header">
+
+        <div class="hd_wrap">
             <h1>
                 <a href="/">
-                    <img src="./images/logo.png" alt="가네시">
+                    <img src="./images/n_logo.png" alt="">
                 </a>
             </h1>
             <nav class="gnb">
                 <ul>
-                    <li><a href="">BRAND</a>
-                        <ul>
-                            <li><a href="">Brand Story</a></li>
-                            <li><a href="">Slogan</a></li>
-                            <li><a href="">Material</a></li>
-                            <li><a href="">History</a></li>
-                            <li><a href="">Media</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">COLLECTION</a>
-
-                    </li>
-                    <li><a href="">JEWELRY</a>
-                        <ul>
-                            <li><a href="">All</a></li>
-                            <li><a href="">New Arrivals</a></li>
-                            <li><a href="">Best</a></li>
-                            <li><a href="">Necklace</a></li>
-                            <li><a href="">Earring</a></li>
-                            <li><a href="">Ring</a></li>
-                            <li><a href="">Couple Ring</a></li>
-                            <li><a href="">Bracelet / Anklet</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">GALLERY</a>
-                        <ul>
-                            <li><a href="">Lookbook</a></li>
-                            <li><a href="">Video</a></li>
-                            <li><a href="">Celebrity</a></li>
-                            <li><a href="">G-Studio</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">STORE</a></li>
-                    <li><a href="">BOARD</a>
-                        <ul>
-                            <li><a href="">Notice</a></li>
-                            <li><a href="">Event</a></li>
-                            <li><a href="">FAQ</a></li>
-                            <li><a href="">Q&A</a></li>
-                            <li><a href="">Review</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="">FASHION</a></li>
+                    <li><a href="">BEAUTY</a></li>
+                    <li><a href="">LIVING</a></li>
+                    <li><a href="">CULTURE</a></li>
+                    <li><a href="">VIDEO</a></li>
                 </ul>
             </nav>
-
             <button class="mbtn">
                 <img src="./images/menu.svg" alt="">
             </button>
-
-
             <div class="utils">
-                <a href="">My Account</a>
-                <a href="">Search</a>
-                <a href="">Bag </a>
+                <button><a href="https://www.magazineshop.co.kr/">구독하기</a></button>
+                <a href="">
+                    <img src="./images/globe.svg" alt="">
+                </a>
+
+                <a href="">
+                    <img src="./images/menu.svg" alt="">
+                </a>
             </div>
         </div>
+
     </header>
     <main id="content">
         <section class="main_visual">
-            <div class="slg">
-                <h2>25 SS Styling Guide</h2>
-                <P>휴양지 무드 가득한 가네시</P>
-            </div>
+            <h2 class="blind">메인 비주얼</h2>
+            <div class="main_visual_slide">
+                <div class="itm itm01">
+                    <div class="txt">
+                        <strong>FASHION</strong>
+                        <p>
+                            여름을 꺼내는 첫 몸짓, 화이트 버뮤다 팬츠 입기!
+                        </p>
+                    </div>
+                </div>
+                <div class="itm itm02">
+                    <div class="txt">
+                        <strong>
+                            FASHION </strong>
+                        <p>
+                            1990년대 모델과 셀럽이 즐겨 입었던 ‘스파게티’ 톱이 돌아왔다.
 
-            <div class="main_visual_slide swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide itm itm01"></div>
-                    <div class="swiper-slide itm itm02"></div>
-                    <div class="swiper-slide itm itm03"></div>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <span class="scroll">
-                scroll
-            </span>
+            <div class="arrows">
+                <button class="prev">
+                    <img src="./images/arrow-left.svg" alt="">
+                </button>
+                <button class="next">
+                    <img src="./images/arrow-right.svg" alt="">
+                </button>
+            </div>
+            <span class="scroll">scroll</span>
         </section>
 
-        <section class="main_foryou default">
-
+        <section class="main_read default">
             <div class="title">
-                <h2>A Gife For You</h2>
-                <p>소중한 사람을 위한 선물</p>
+                <h2>MUST RAED</h2>
             </div>
             <div class="inner">
                 <div class="itm">
-                    <figure>
-                        <img src="./images/main_foryou01.jpg" alt="">
-                    </figure>
+                    <div class="img_box">
+                        <img src="./images/main_read01.jpg" alt="">
+                    </div>
                     <div class="txt">
-                        <strong>쉐르토르세 18k 원터치 귀걸이</strong>
-                        <em>30%</em>
-                        <span>285,000원</span>
-                        <p>199,500원</p>
+                        <em>웰니스</em>
+                        <strong>자기 전에 잔뜩 먹어도 살 안 찌는 간식 7가지</strong>
+                        <p>by 장성실, Veronica Cristino</p>
                     </div>
                 </div>
                 <div class="itm">
-                    <figure>
-                        <img src="./images/main_foryou02.jpg" alt="">
-                    </figure>
+                    <div class="img_box">
+                        <img src="./images/main_read02.jpg" alt="">
+                    </div>
                     <div class="txt">
-                        <strong> 시밀러 18k 원터치 귀걸이</strong>
-                        <em>30%</em>
-                        <span>516,000원</span>
-                        <p>361,200원</p>
+                        <em>패션 트렌드</em>
+                        <strong>올여름, 당신이 입지 않을 것들</strong>
+                        <p>by 황혜원, Alessandro Cariani</p>
                     </div>
                 </div>
                 <div class="itm">
-                    <figure>
-                        <img src="./images/main_foryou03.jpg" alt="">
-                    </figure>
+                    <div class="img_box">
+                        <img src="./images/main_read03.jpg" alt="">
+                    </div>
                     <div class="txt">
-                        <strong>0.5부 트윙클보니또 18k 다이아 여자목걸이</strong>
-                        <em>20%</em>
-                        <span> 499,000원</span>
-                        <p>399,200원</p>
+                        <em>웰니스</em>
+                        <strong>매일 반드시 지켜야 할 단 하나의 건강 습관</strong>
+                        <p>by 김현유, Hannah Coates</p>
                     </div>
                 </div>
                 <div class="itm">
-                    <figure>
-                        <img src="./images/main_foryou04.jpg" alt="">
-                    </figure>
+                    <div class="img_box">
+                        <img src="./images/main_read04.jpg" alt="">
+                    </div>
                     <div class="txt">
-                        <strong>시그니처클래식#3 18k 여자목걸이</strong>
-                        <em>20%</em>
-                        <span> 450,000원</span>
-                        <p>360,000원</p>
+                        <em>셀러브리티 스타일</em>
+                        <strong>칸영화제마저 점령하기 시작한 청바지</strong>
+                        <p> by 안건호</p>
                     </div>
                 </div>
             </div>
-
         </section>
-
-        <section class="main_story default">
+        <section class="main_banner default">
+            <div class="title">
+                <h2>RED VELVET</h2>
+            </div>
+        </section>
+        <section class="main_living default">
+            <div class="title">
+                <h2>LIVING & CULTURE</h2>
+            </div>
             <div class="inner">
-                <div class="left">
-                    <div class="title">
-                        <h2>Our Story</h2>
-                        <p style="font-weight: 600;">당신의 특별한 순간을 이야기로 풀어낸 가네시의 디자인을 만나보세요.
-                        </p>
-                        <p>가네시 디자이너들은 당신의 삶에서 가장 의미 있고 소중한 순간을<br> 제품에 담아내기 위한 여정을 멈추지 않습니다.
-                            <br>경이로운 자연(natural), 세대를 아우르는 전통적 가치(classic), 평범한 일상(daily life) 등 <br>당신의 삶 속에서 가장 아름답고
-                            가치 있는
-                            순간에서 영감을 얻고 아름다운 주얼리로 표현합니다.
-                        </p>
-                    </div>
-                </div>
-                <div class="right">
-                    <div class="swiper main_story_slide">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide itm">
-                                <figure>
-                                    <img src="./images/main_story01.jpg" alt="">
-                                </figure>
-                            </div>
-                            <div class="swiper-slide itm">
-                                <figure>
-                                    <img src="./images/main_story02.jpg" alt="">
-                                </figure>
-                            </div>
-
+                <div class="main_living_slide">
+                    <div class="itm">
+                        <div class="img_box">
+                            <img src="./images/main_living01.jpg" alt="">
                         </div>
+                        <span>데코</span>
+                        <strong>루이 비통이 복원으로 새로운<br> 시대를 여는 방법</strong>
+                        <p>by 김나랑</p>
+                    </div>
+                    <div class="itm">
+                        <div class="img_box">
+                            <img src="./images/main_living02.jpg" alt="">
+                        </div>
+                        <span>데코</span>
+                        <strong>루이 비통 홈 컬렉션 디자이너들과의 <br>인터뷰, 디자인의 코어</strong>
+                        <p>by 김나랑</p>
+                    </div>
+                    <div class="itm">
+                        <div class="img_box">
+                            <img src="./images/main_living03.jpg" alt="">
+                        </div>
+                        <span>푸드</span>
+                        <strong>Go ZERO, Now ZERO</strong>
+                        <hr>
+                        <p>by VOGUE PROMOTION</p>
+                    </div>
+                    <div class="itm">
+                        <div class="img_box">
+                            <img src="./images/main_living04.jpg" alt="">
+                        </div>
+                        <span>푸드</span>
+                        <strong>'먹는 패션' 혹은 '필수 사치품'이 된 음식</strong>
+                        <hr>
+                        <p>by 김나랑</p>
+                    </div>
+                    <div class="itm">
+                        <div class="img_box">
+                            <img src="./images/main_living011.jpg" alt="">
+                        </div>
+                        <span>아트</span>
+                        <strong>바티칸 도서관에서 열리는 삶과<br> 여행에 관한 전시</strong>
+                        <p>by 류가영</p>
+                    </div>
+                    <div class="itm">
+                        <div class="img_box">
+                            <img src="./images/main_living012.jpg" alt="">
+                        </div>
+                        <span>아트</span>
+                        <strong>미술가 살보의 풍경화 속 '그곳'을 찾아서</strong>
+                        <hr>
+                        <p>by 김나랑</p>
+                    </div>
+                    <div class="itm">
+                        <div class="img_box">
+                            <img src="./images/main_living013.jpg" alt="">
+                        </div>
+                        <span>뷰 포인트</span>
+                        <strong>패션에서 라이프스타일까지, 우리는 왜 토마토에 열광하는가</strong>
+                        <p>by 류가영</p>
+                    </div>
+                    <div class="itm">
+                        <div class="img_box">
+                            <img src="./images/main_living014.jpg" alt="">
+                        </div>
+                        <span>아트</span>
+                        <strong>텅 빈 눈동자의 소년은 어떤 청년으로 자랐을까, '필요와 불필요 사이의 공간'展</strong>
+                        <p>by 하솔휘</p>
                     </div>
                 </div>
             </div>
-
-        </section>
-
-        <section class="main_banner">
-            <div class="inner">
-                <div class="title">
-                    <h2>Glowing</h2>
-                </div>
+            <div class="arrows">
+                <button class="prev">
+                    <img src="./images/arrow-left.svg" alt="">
+                </button>
+                <button class="next">
+                    <img src="./images/arrow-right.svg" alt="">
+                </button>
             </div>
         </section>
-
         <section class="main_content default">
             <div class="title">
-                <h2>IT'S TIME TO SHINE</h2>
-                <p>가네시 주얼리와 함께 눈부시게 빛날 시간</p>
+                <h2>BEAUTY& FASHION</h2>
             </div>
             <div class="inner">
                 <div class="tab_menu">
-                    <button class="on">Necklace</button>
-                    <button>Ring</button>
-                    <button>Earring</button>
+                    <button class="on">BEAUTY</button>
+                    <button>FASHION</button>
                 </div>
                 <div class="tab_content">
                     <div class="con on">
                         <div class="itm">
                             <div class="img_box">
+                                <img src="./images/main_content05.jpg" alt="">
+                            </div>
+                            <span>뷰티 트렌드</span>
+                            <strong>클린 걸 시대! 깨끗하고 청순한 네일 23</strong>
+                            <hr>
+                            <p>by 황혜원, Hannah Coates</p>
+                        </div>
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/main_content06.jpg" alt="">
+                            </div>
+                            <span>웰니스</span>
+                            <strong>당신의 뇌는 지금 영양실조에 걸렸습니다</strong>
+                            <hr>
+                            <p>by 김초롱, Jeanne Ballion</p>
+                        </div>
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/main_content07.jpg" alt="">
+                            </div>
+                            <span>웰니스</span>
+                            <strong>앉아만 있어 쪼그라든 근육, 조곤조곤 늘여주는 편심성 운동</strong>
+                            <p>by 윤혜선</p>
+                        </div>
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/main_content08.jpg" alt="">
+                            </div>
+                            <span>웰니스</span>
+                            <strong>10년 넘게 필라테스를 한 내가 최근 자이로토닉에 푹 빠진 이유</strong>
+                            <p>by 김현유, Rebecca Cope</p>
+                        </div>
+                    </div>
+
+
+                    <div class="con">
+                        <div class="itm">
+                            <div class="img_box">
                                 <img src="./images/main_content01.jpg" alt="">
                             </div>
-                            <div class="txt">
-                                <strong>리코리스 18k 다이아 여자목걸이</strong>
-                                <em>20%</em>
-                                <span> 874,000</span>
-                                <p>699,200원</p>
-                            </div>
+                            <span>패션 뉴스</span>
+                            <strong>너무 헐렁하지도 딱 붙지도 않는 <br>올해의 청바지</strong>
+                            <p>by 황혜원, Daisy Jones</p>
                         </div>
                         <div class="itm">
                             <div class="img_box">
                                 <img src="./images/main_content02.jpg" alt="">
                             </div>
-                            <div class="txt">
-                                <strong>시그니처클래식#3 18k 여자목걸이</strong>
-                                <em>20%</em>
-                                <span>450,000원</span>
-                                <p>360,000원</p>
-                            </div>
+                            <span>패션 뉴스</span>
+                            <strong>카일리 제너, Khy x 딜라라 핀디코글루 컬렉션 선보인다</strong>
+                            <p>by 오기쁨</p>
                         </div>
                         <div class="itm">
                             <div class="img_box">
                                 <img src="./images/main_content03.jpg" alt="">
                             </div>
-                            <div class="txt">
-                                <strong>[NEW] 리에 18k 여자목걸이</strong>
-                                <em>20%</em>
-                                <span> 498,000원</span>
-                                <p>398,400원</p>
-                            </div>
+                            <span>패션 뉴스</span>
+                            <strong>올여름 샌들을 한 단계 업그레이드할 <br>특별한 디테일</strong>
+                            <p>by 황혜원, Daisy Jones</p>
                         </div>
                         <div class="itm">
                             <div class="img_box">
                                 <img src="./images/main_content04.jpg" alt="">
                             </div>
-                            <div class="txt">
-                                <strong>트리슈어#2S 18k 화이트자개 여자목걸이</strong>
-                                <em>20%</em>
-                                <span>487,000원</span>
-                                <p>389,600원</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="con">
-                        <div class="itm">
-                            <div class="img_box">
-                                <img src="./images/main_content021.jpg" alt="">
-                            </div>
-                            <div class="txt">
-                                <strong>아르쿠스클레로 18k 반지</strong>
-                                <span class="infor"> 반지 제품은 주문 제작 상품으로
-                                    제작 기간이 소요됩니다.</span>
-                                <p>614,000원</p>
-                            </div>
-                        </div>
-                        <div class="itm">
-                            <div class="img_box">
-                                <img src="./images/main_content022.jpg" alt="">
-                            </div>
-                            <div class="txt">
-                                <strong>드림캐쳐씨엘로 18k 다이아 반지</strong>
-                                <span class="infor"> 반지 제품은 주문 제작 상품으로
-                                    제작 기간이 소요됩니다.</span>
-                                <p>416,000원</p>
-                            </div>
-                        </div>
-                        <div class="itm">
-                            <div class="img_box">
-                                <img src="./images/main_content023.jpg" alt="">
-                            </div>
-                            <div class="txt">
-                                <strong>데세오S 18k 탄생석 반지</strong>
-                                <span class="infor"> 반지 제품은 주문 제작 상품으로
-                                    제작 기간이 소요됩니다.</span>
-                                <p>535,000원</p>
-                            </div>
-                        </div>
-                        <div class="itm">
-                            <div class="img_box">
-                                <img src="./images/main_content024.jpg" alt="">
-                            </div>
-                            <div class="txt">
-                                <strong>아모르 18k 반지</strong>
-                                <span class="infor"> 반지 제품은 주문 제작 상품으로
-                                    제작 기간이 소요됩니다.</span>
-                                <p>705,000원</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="con">
-                        <div class="itm">
-                            <div class="img_box">
-                                <img src="./images/main_content011.jpg" alt="">
-                            </div>
-                            <div class="txt">
-                                <strong>[NEW] 쉐르토르세 18k 원터치 귀걸이</strong>
-                                <em>30%</em>
-                                <span>285,000원</span>
-                                <p>199,500원</p>
-                            </div>
-                        </div>
-                        <div class="itm">
-                            <div class="img_box">
-                                <img src="./images/main_content012.jpg" alt="">
-                            </div>
-                            <div class="txt">
-                                <strong>아르쿠스발레리 18k 귀걸이</strong>
-                                <em>15%</em>
-                                <span>398,000원</span>
-                                <p>338,300원</p>
-                            </div>
-                        </div>
-                        <div class="itm">
-                            <div class="img_box">
-                                <img src="./images/main_content013.jpg" alt="">
-                            </div>
-                            <div class="txt">
-                                <strong>[NEW] 시밀러 18k 원터치 귀걸이</strong>
-                                <em>30%</em>
-                                <span>516,000원</span>
-                                <p>361,200원</p>
-                            </div>
-                        </div>
-                        <div class="itm">
-                            <div class="img_box">
-                                <img src="./images/main_content014.jpg" alt="">
-                            </div>
-                            <div class="txt">
-                                <strong>트리슈어#1 18k 핑크오팔 여자귀걸이</strong>
-                                <em>15%</em>
-                                <span>526,000원</span>
-                                <p>447,100원</p>
-                            </div>
+                            <span>패션 화보</span>
+                            <strong>EVERYDAY COOL</strong>
+                            <hr>
+                            <p>by 최보경</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-
     </main>
-    <footer id="footer">
+
+    <footer class="footer">
         <div class="inner">
-            <ul class="sns">
-                <li><a href="" class="tt">Legal Notice</a>
-                    <ul>
-                        <li><a href="">회사소개</a></li>
-                        <li><a href="" style="font-weight: 600;">개인정보처리방침</a></li>
-                        <li><a href="">이용안내</a></li>
-                        <li><a href="">이용약관</a></li>
-                    </ul>
-                </li>
-                <li><a href="" class="tt">Customer</a>
-                    <ul>
-                        <li><a href="">교환 및 반품</a></li>
-                        <li><a href="">주문 조회</a></li>
-                        <li><a href="">공지사항</a></li>
-                        <li><a href="">FAQ</a></li>
-                    </ul>
-                </li>
-                <li><a href="" class="tt">Social</a>
-                    <ul>
-                        <li><a href="https://www.instagram.com/ganeshi.official/">Instagram</a></li>
-                        <li><a href="https://www.facebook.com/loveganeshi">Facebook</a></li>
-                        <li><a href="https://www.youtube.com/channel/UChLwiU8BIOW8jhB3MIP-NIg">Youtube</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+            <a href="">
+                <img src="./images/logo_white_m.svg" alt="">
+            </a>
             <ul class="customer">
-                <li>상호 : 가네시</li>
-                <li>대표 : 조선아</li>
-                <li>사업자 등록번호 안내 : [621-20-86725]</li>
-                <li>통신판매업 신고 : 제2012-부산금정-0175호</li>
-                <li>[사업자정보확인]</li>
+                <li><a href="">정기구독</a></li>
+                <li><a href="">회사소개</a></li>
+                <li><a href="">광고/제휴</a></li>
+                <li style="font-weight: 600;"><a href="">개인정보 처리방침</a></li>
+                <li><a href="">공지사항</a></li>
             </ul>
-
-            <ul class="tel">
-                <li>전화 : 051-927-6668-9</li>
-                <li>팩스 : 051-797-6699</li>
-                <li>주소 : 46333 부산광역시 금정구 공단서로 25 (금사동) 덕신빌딩 4층</li>
-                <li>개인정보관리책임자 : 조선아(ganeshi@ganeshi.co.kr)</li>
-            </ul>
-
-            <address>ⓒ 가네시 ALL RIGHTS RESERVED</address>
+            <address>VOGUE.CO.KR IS OPERATED BY DOOSAN MAGAZINE</address>
         </div>
     </footer>
 
     <button class="to_top">
-        <img src="./images/chevron-up.svg" alt="">
+        <img src="./images/arrow-up.svg" alt="">
     </button>
-
-
 </body>
 
 </html>
