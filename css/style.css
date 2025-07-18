@@ -254,6 +254,30 @@
     }
 }
 
+.main_todays {}
+
+.main_today .inner {
+    display: flex;
+    gap: 30px;
+}
+
+.main_today .inner>* {}
+
+.main_todays .left {
+    flex: 1;
+}
+
+
+.main_todays .right {
+    display: grid;
+    grid-template-columns: repeat(2fr 1fr);
+    gap: 30px;
+    flex: 2;
+
+}
+
+
+
 .main_read {}
 
 .main_read .inner {
